@@ -1,0 +1,6 @@
+{
+  "module_name": "example_module",
+  "project_slug": "{{ cookiecutter.module_name.lower().replace(' ', '_') }}",
+  "full_crud": "all, create, read, update, delete, list, search",
+  "unit_test": "yes"
+}
